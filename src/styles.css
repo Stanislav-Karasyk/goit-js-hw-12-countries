@@ -8,10 +8,8 @@ input {
 }
 
 .list-countries {
-  display: flex;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .name {
