@@ -20,6 +20,7 @@ inputRef.addEventListener(
     const inputValue = event.target.value;
     if (inputValue == 0) {
       document.querySelector(".list-countries").innerHTML = "";
+      countryContainerRef.innerHTML = "";
     }
     fetchCountries(inputValue);
   }, 500),
